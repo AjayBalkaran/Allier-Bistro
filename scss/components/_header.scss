@@ -1,0 +1,55 @@
+// ======================================
+//                Header
+// ======================================
+
+header {
+    height: 95%;
+    width: 160px;
+    position: fixed;
+    z-index: 100;
+    top: 2.5%;
+    left: 1.5%;
+    background-color: $color-secondary;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    // padding: 20px;
+
+    img {
+        height: 75px;
+    }
+
+    nav {    
+        height: 50%;
+        a {
+            margin: 20% 0;
+            text-decoration: none;
+            color: $color-tertiary;
+            display: block;
+        }
+        
+        
+        a:hover {
+            color: $color-primary;
+        }
+    }
+
+    nav a:first-child {
+        margin-top: 0;
+    }
+
+    .book {
+        height: 20%;
+        button {
+            background-color: $color-secondary;
+            border-color: $color-tertiary;
+            color: $color-primary;
+            padding: 10% 20%;
+            font-size: 25px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+    }
+}
