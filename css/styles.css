@@ -351,4 +351,49 @@ body {
   font-family: "Playfair Display", serif;
 }
 
+header {
+  height: 95%;
+  width: 160px;
+  position: fixed;
+  z-index: 100;
+  top: 2.5%;
+  left: 1.5%;
+  background-color: #232931;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+header img {
+  height: 75px;
+}
+header nav {
+  height: 50%;
+}
+header nav a {
+  margin: 20% 0;
+  text-decoration: none;
+  color: #EEEEEE;
+  display: block;
+}
+header nav a:hover {
+  color: #F97373;
+}
+header nav a:first-child {
+  margin-top: 0;
+}
+header .book {
+  height: 20%;
+}
+header .book button {
+  background-color: #232931;
+  border-color: #EEEEEE;
+  color: #F97373;
+  padding: 10% 20%;
+  font-size: 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=styles.css.map */
